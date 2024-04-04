@@ -1,0 +1,29 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  scrollbar-color: theme("colors.accent") white;
+}
+
+body {
+  @apply bg-white font-[Manrope-Regular];
+}
+
+* {
+  @apply box-border;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-weight: normal;
+  font-family: Manrope-SemiBold;
+}
+
+a {
+  @apply text-white;
+}
